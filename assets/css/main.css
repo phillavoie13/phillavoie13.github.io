@@ -3554,3 +3554,18 @@ h2 {
 #one header.major h2 {
     color: #A8CFE0;
 }
+
+/* Déplacer le menu latéral vers la gauche */
+@media screen and (min-width: 1025px) {
+
+    #header {
+        left: 0;
+        right: auto;
+    }
+
+    #wrapper {
+        padding-left: 23em;
+        padding-right: 0;
+    }
+
+}
