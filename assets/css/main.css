@@ -3599,3 +3599,16 @@ h2 {
 #header > footer .icons a:hover {
     color: #397FA3 !important;
 }
+
+/* Fleur de lys en haut à droite */
+#one {
+    position: relative;
+}
+
+.fleur-de-lys {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    width: 75px;
+    height: auto;
+}
