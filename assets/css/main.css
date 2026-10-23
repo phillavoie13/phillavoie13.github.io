@@ -3589,3 +3589,13 @@ h2 {
     color: #A8CFE0 !important;
     background-color: #ffffff;
 }
+
+/* Icônes des réseaux sociaux en blanc */
+#header > footer .icons a {
+    color: #ffffff !important;
+}
+
+/* Couleur des icônes au survol */
+#header > footer .icons a:hover {
+    color: #397FA3 !important;
+}
