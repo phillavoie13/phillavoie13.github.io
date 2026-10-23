@@ -3454,3 +3454,10 @@ input[type="button"]:disabled,
 #one p {
     margin-bottom: 0.8em;
 }
+
+/* Personnalisation des couleurs du site */
+
+/* Couleur de fond du menu latéral */
+#header {
+    background-color: #A8CFE0;
+}
