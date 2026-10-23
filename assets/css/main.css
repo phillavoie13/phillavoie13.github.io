@@ -3461,3 +3461,63 @@ input[type="button"]:disabled,
 #header {
     background-color: #A8CFE0;
 }
+
+/* =========================================
+   Personnalisation des couleurs du site
+   Philippe Lavoie
+   ========================================= */
+
+/* Menu latéral */
+#header {
+    background-color: #A8CFE0;
+}
+
+/* Liens dans le contenu */
+a {
+    color: #397FA3;
+}
+
+/* Liens au survol */
+a:hover {
+    color: #245D7A;
+}
+
+/* Boutons principaux */
+input[type="submit"].primary,
+input[type="reset"].primary,
+input[type="button"].primary,
+.button.primary {
+    background-color: #397FA3;
+    color: #ffffff !important;
+}
+
+/* Boutons principaux au survol */
+input[type="submit"].primary:hover,
+input[type="reset"].primary:hover,
+input[type="button"].primary:hover,
+.button.primary:hover {
+    background-color: #245D7A;
+}
+
+/* Icônes décoratives */
+ul.feature-icons li:before {
+    background-color: #A8CFE0;
+}
+
+/* Bordures et éléments décoratifs */
+#main > section {
+    border-top-color: #D5E7F0;
+}
+
+/* Champs de formulaire sélectionnés */
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #397FA3;
+}
+
+/* Couleur de sélection du texte */
+::selection {
+    background-color: #A8CFE0;
+    color: #173D52;
+}
