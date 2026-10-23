@@ -3583,3 +3583,9 @@ h2 {
 #header > nav ul li {
     border-top-color: #ffffff;
 }
+
+/* Couleur du texte de la section active dans le menu */
+#header > nav ul li a.active {
+    color: #A8CFE0 !important;
+    background-color: #ffffff;
+}
