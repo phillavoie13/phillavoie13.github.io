@@ -3521,3 +3521,22 @@ select:focus {
     background-color: #A8CFE0;
     color: #173D52;
 }
+
+/* Police générale du site */
+body,
+input,
+select,
+textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Police des titres */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/* Titres principaux */
+h2 {
+    font-weight: 900;
+}
