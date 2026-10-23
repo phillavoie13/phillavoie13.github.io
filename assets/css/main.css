@@ -3540,3 +3540,12 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     font-weight: 900;
 }
+
+/* Faire commencer la section À propos en haut de la page */
+#one {
+    padding-top: 2em;
+}
+
+#one > .container {
+    padding-top: 0;
+}
