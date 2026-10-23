@@ -3449,3 +3449,8 @@ input[type="button"]:disabled,
     padding: 0;
   }
 }
+
+/* Réduire l'espace entre les paragraphes */
+#one p {
+    margin-bottom: 0.8em;
+}
