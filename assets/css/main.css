@@ -3569,3 +3569,17 @@ h2 {
     }
 
 }
+
+/* =========================================
+   Personnalisation du menu latéral
+   ========================================= */
+
+/* Texte sous le nom en blanc */
+#header header p {
+    color: #ffffff;
+}
+
+/* Lignes séparatrices du menu en blanc */
+#header > nav ul li {
+    border-top-color: #ffffff;
+}
