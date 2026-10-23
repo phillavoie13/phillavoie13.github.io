@@ -3549,3 +3549,8 @@ h2 {
 #one > .container {
     padding-top: 0;
 }
+
+/* Couleur du nom principal */
+#one header.major h2 {
+    color: #A8CFE0;
+}
